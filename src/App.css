@@ -3,10 +3,11 @@
   padding:5rem 5rem ;
  text-align: center;
  background-size:contain;
-
+font-size: 1rem;
    background-position: bottom;
-   height: 100vh;
+   height: 102vh;
 font-weight: 900;
+
 
 
 /*
@@ -73,7 +74,7 @@ padding:30px;
 
 .afternoon{
   background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(58,254,255,1) 74%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(58,254,255,1) 74%);
 
 
 }
@@ -113,4 +114,25 @@ padding:30px;
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+@media screen and (max-width: 600px) {
+    .search-bar { width:100% }
+    .App { font-weight: 600;
+    padding:3rem 3rem;
+  height:  120vh;
+  width:  60vh; }
+    .info {
+      margin:2rem auto;
+      font-size: 1.5rem;
+    width: 100%;
+    font-weight: 700; }
+    .temp{
+      font-size: 1.5rem;
+      width: 95%;
+      margin:10px;
+
+    }
+
+    .search-btn {font-size: 1px;}
 }
