@@ -1,36 +1,22 @@
 .App {
-
   padding:5rem 5rem ;
- text-align: center;
- background-size:contain;
-font-size: 1rem;
-   background-position: bottom;
-   height: 102vh;
-font-weight: 900;
-
-
-
-/*
-background: rgb(0,0,0);
-background: radial-gradient(circle, rgba(0,0,0,1) 5%, rgba(10,2,91,1) 100%);
-*/
-
+  text-align: center;
+  background-size:contain;
+  font-size: 1rem;
+  background-position: bottom;
+  height: 102vh;
+  font-weight: 900;
   color: white;
   text-shadow: 2px 2px 4px #000000;
-
-
-
 }
 
 .search{
-margin-top: 2rem;
+  margin-top: 2rem;
   width:100%;
- display: inline-block;
+  display: inline-block;
 }
 
-
 .search-bar{
-
   width:55%;
   border-radius: 15px;
   padding:8px ;
@@ -39,61 +25,52 @@ margin-top: 2rem;
 }
 
 .search-btn{
-
-     border-radius:0 0 15px 15px  ;
-     font-size: 2px;
-
-     cursor: pointer;
-     box-shadow: 3px 3px 3px;
+  border-radius:0 0 15px 15px  ;
+  font-size: 2px;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px;
 }
+
 .info{
   font-size: 2.5rem;
   width: 50%;
   display: inline-block;
   font-weight: 900;
-
 }
 
 .temp{
   font-size: 2.5rem;
   width: 30%;
   background-color: rgba(255,255,255,0.4);
-padding:30px;
+  padding:30px;
   display: inline-block;
   margin:50px;
   border-radius: 20px;
 }
-
 
 .icon{
   width: 100px;
   height:100px
 }
 
-
-
 .afternoon{
   background: rgb(255,255,255);
   background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(58,254,255,1) 74%);
-
-
 }
+
 .evening{
   background: rgb(255,162,0);
   background: linear-gradient(0deg, rgba(255,162,0,1) 18%, rgba(255,248,8,1) 60%, rgba(255,255,255,1) 100%);
-
 }
 
 .night{
   background: rgb(0,0,0);
   background: radial-gradient(circle, rgba(0,0,0,1) 5%, rgba(10,2,91,1) 100%);
-
 }
 
 .morning{
   background: rgb(255,210,112);
   background: linear-gradient(0deg, rgba(255,210,112,1) 28%, rgba(33,193,195,1) 100%);
-
 }
 
 @media{
@@ -118,21 +95,26 @@ padding:30px;
 
 @media screen and (max-width: 600px) {
     .search-bar { width:100% }
-    .App { font-weight: 600;
-    padding:3rem 3rem;
-  height:  120vh;
-  width:  60vh; }
+
+    .App {
+      font-weight: 600;
+      padding:3rem 3rem;
+      height:  120vh;
+      width:  60vh;
+      }
+
     .info {
       margin:2rem auto;
       font-size: 1.5rem;
-    width: 100%;
-    font-weight: 700; }
+      width: 100%;
+      font-weight: 700;
+      }
+      
     .temp{
       font-size: 1.5rem;
       width: 95%;
       margin:10px;
-
-    }
+      }
 
     .search-btn {font-size: 1px;}
 }
